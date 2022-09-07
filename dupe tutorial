@@ -1,0 +1,181 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(87, 88, 87)
+TextButton.Position = UDim2.new(0, 0, 0.408708543, 0)
+TextButton.Size = UDim2.new(0, 75, 0, 26)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Open"
+TextButton.TextColor3 = Color3.fromRGB(21, 5, 3)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Frame.Position = UDim2.new(-0.709320664, 0, 0.211900502, 0)
+Frame.Size = UDim2.new(0, 897, 0, 338)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.352285415, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 265, 0, 36)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "South London 2 Dupe Tutorial"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.158305466, 0, 0.106508881, 0)
+TextLabel_2.Size = UDim2.new(0, 657, 0, 36)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "- Required:  2 accounts (example: 1 main & 1 alt)"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 20.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.0680044591, 0, 0.189349115, 0)
+TextLabel_3.Size = UDim2.new(0, 466, 0, 36)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Step 1 : Give all of your cash from Main to alt"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 20.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.144927531, 0, 0.260355026, 0)
+TextLabel_4.Size = UDim2.new(0, 466, 0, 36)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Step 2 : Click Dupe button"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 20.000
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0211817194, 0, 0.34319526, 0)
+TextLabel_5.Size = UDim2.new(0, 470, 0, 32)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Step 3 : After your roblox crashed, go to your browser roblox's tab"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 20.000
+
+TextLabel_6.Parent = Frame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0356744602, 0, 0.420118302, 0)
+TextLabel_6.Size = UDim2.new(0, 470, 0, 32)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = " (DONT TRY TO QUIT ROBLOX JUST MOVE TO YOUR BROWSER)"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 20.000
+
+TextLabel_7.Parent = Frame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(-0.043478258, 0, 0.49999997, 0)
+TextLabel_7.Size = UDim2.new(0, 470, 0, 32)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Step 4 : Click join a random server ( your main acc)"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 20.000
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0847268626, 0, 0.571005821, 0)
+TextLabel_8.Size = UDim2.new(0, 470, 0, 32)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Step 5 :BOOM ! Now you can see you have the same ammount of cash on both acc "
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 20.000
+
+TextLabel_9.Parent = Frame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.144927531, 0, 0.644970357, 0)
+TextLabel_9.Size = UDim2.new(0, 470, 0, 32)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Step 6 : Now you need to quit roblox to make it less lag ( can click \"Kill Roblox\" to make it faster )"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 20.000
+
+TextLabel_10.Parent = Frame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.290969908, 0, 0.713017702, 0)
+TextLabel_10.Size = UDim2.new(0, 757, 0, 32)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "Step 7 : Replay to dupe again "
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 20.000
+
+TextLabel_11.Parent = Frame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(-0.269788206, 0, 0.784023583, 0)
+TextLabel_11.Size = UDim2.new(0, 757, 0, 32)
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "Step 8 : Subscribe to Buffalo on yt"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 20.000
+
+TextLabel_12.Parent = Frame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(-0.0345596634, 0, 0.857988119, 0)
+TextLabel_12.Size = UDim2.new(0, 757, 0, 32)
+TextLabel_12.Font = Enum.Font.SourceSansBold
+TextLabel_12.Text = "Step 9 : Do a hundread clicks & download on the linkvertise to help Buff earn some money"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 20.000
+
+-- Scripts:
+
+local function ETCRA_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	--Made by w_blu
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Text == "Open" then
+			script.Parent.Text = "Close"
+			script.Parent.Parent.Frame:TweenPosition(UDim2.new(0.249, 0,0.266, 0), "Out", "Quad", 1, true)
+		elseif script.Parent.Text == "Close" then
+			script.Parent.Text = "Open"
+			script.Parent.Parent.Frame:TweenPosition(UDim2.new(-0.709, 0,0.212, 0), "In", "Quad", 1, true)
+		
+		end
+	end)
+end
+coroutine.wrap(ETCRA_fake_script)()
